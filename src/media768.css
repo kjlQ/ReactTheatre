@@ -1,0 +1,133 @@
+@media (max-width: 768px) {
+    .links ul {
+        display: block;
+    }
+    .main {
+        height: 78vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .links {
+        top: 50px;
+        margin-left: -130%;
+    }
+    .burg {
+        position: fixed;
+    }
+    .burger-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    .links ul li {
+        margin-top: 20px;
+    }
+    .partners-logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    .disable  {
+        margin-left: 0;
+        transition: 1s;
+        width: 100%;
+        height: 80vh;
+        background-color: #333333;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .pictures {
+        overflow: scroll;
+    }
+    .sl {
+        padding-top: 70px;
+    }
+    .all-black {
+        background-color: #000;
+    }
+    .sl {
+        width: 100%;
+        display: inline-grid;
+    }
+    .prew {
+        margin: auto;
+    }
+    .main-slider {
+        display: none;
+    }
+    .links span {
+        display: grid;
+    }
+    .links span i {
+        margin-top: 30px;
+    }
+    .contacts {
+        display: none;
+    }
+    .num1, .num2 {
+        display: block;
+        text-align: center;
+    }
+    .propirate-about {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+    }
+    .numbers {
+        text-align: center;
+        margin: auto;
+    }
+    .best {
+        width: 100%;
+        margin: auto;
+    }
+    .pikcha {
+        display: none;
+    }
+    .all-links {
+        position: absolute;
+        height : 100%;
+        width: 50%;
+    }
+    .poster p {
+        font-size: 27px;
+        text-align: center;
+    }
+    .poster {
+        margin-top: 100px;
+    }
+    .links ul li a{
+        font-size: 25px;
+    }
+    .all-links{
+        padding-top: 30px;
+    }
+    .links {
+        padding-top: 20px;
+    }
+    .best , .numbers {
+        font-size: 23px;
+    }
+    .pictures p {
+        font-size: 30px;
+    }
+    .num1 p,.num2 p , .main-number{
+        font-size: 30px;
+    }
+    .main-number {
+        text-align: left;
+    }
+    .all-links.active-sidebar{
+        background: #333333;
+        transition: 0.5s;
+        position: fixed;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        overflow-y: scroll;
+    }
+
+}
