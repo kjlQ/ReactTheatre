@@ -2,6 +2,14 @@
     .links ul {
         display: block;
     }
+    ul span a {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+    }
+    span a span {
+        padding-right: 10px;
+    }
     .main {
         height: 78vh;
         background-size: cover;
@@ -10,6 +18,16 @@
     .links {
         top: 50px;
         margin-left: -130%;
+        z-index: -1;
+    }
+    .disable  {
+        margin-left: 0;
+        transition: 1s;
+        width: 100%;
+        height: 80vh;
+        background-color: #333333;
+        position: fixed;
+        overflow-y: scroll;
     }
     .burg {
         position: fixed;
@@ -31,15 +49,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         text-align: center;
-    }
-    .disable  {
-        margin-left: 0;
-        transition: 1s;
-        width: 100%;
-        height: 80vh;
-        background-color: #333333;
-        position: fixed;
-        overflow-y: scroll;
     }
     .pictures {
         overflow: scroll;

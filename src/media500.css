@@ -1,0 +1,32 @@
+@media (max-width: 500px) {
+    .poster p {
+        font-size: 20px;
+    }
+    .poster {
+        text-align: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    .num1 p,.num2 p , .main-number{
+        font-size: 20px;
+    }
+    .propirate-about {
+        display: block;
+    }
+    .best {
+        padding-bottom: 20px;
+    }
+    .stars img{
+        height: 100%;
+        width: 100%;
+    }
+    .partners-logo img{
+        width: 90%;
+    }
+    .all-links {
+        width: 100%;
+    }
+    .num1,.num2 {
+        width: 70%;
+    }
+}
